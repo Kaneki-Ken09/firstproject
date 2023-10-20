@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-image: url(images/it.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   }
+
+   .container {
+    width: 300px;
+    padding: 16px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    margin-top: 120px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background: url(images/usmlogo.png), url(images/psitslogo.png);
+    background-repeat: no-repeat;
+    background-size: 95px ,110px,cover;
+    background-position: top left 65px,top right 65px ;
+    background-color: white;
+    box-shadow: -16px 10px 24px 0px rgba(0,0,0,0.7);
+-webkit-box-shadow: -16px 10px 24px 0px rgba(0,0,0,0.7);
+-moz-box-shadow: -16px 10px 24px 0px rgba(0,0,0,0.7);
+    
+    
+
+   }
+
+   input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+   }
+   
+   input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+   }
+   
+   input[type=submit]:hover {
+    opacity: 0.8;
+    background-color: #000000;
+    color: white;
+   }
+   
+   .signup-button {
+    color: #000000;
+    text-decoration: none;
+   }
+   
+   .signup-button:hover {
+    color: #000000;
+    text-decoration: underline;
+   }
+   .signup{
+    font-size: small;
+    
+   }
